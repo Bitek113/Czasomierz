@@ -14,6 +14,12 @@ button {
     border-style: none;
 }
 
+p {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #a1b905;
+}
+
 #container {
     height: 100vh;
     width: 100vw;
@@ -54,27 +60,27 @@ button {
     background-color: #181818;
 }
 
-.start {
+#start {
     grid-column: 1;
     background-color: rgb(19, 220, 19);
 }
 
-.start:hover {
+#start:hover {
     background-color: green;
 }
-.stop {
+#stop {
     grid-column: 2;
     background-color: red;
 }
-.stop:hover {
+#stop:hover {
     background-color: rgb(181, 16, 16);
 }
-.reset {
+#reset {
     grid-column: 3;
     background-color: whitesmoke;
     
 }
-.clear:hover {
+#clear:hover {
     background-color: rgb(162, 159, 156);
 }
 
